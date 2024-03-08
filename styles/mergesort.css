@@ -5,16 +5,16 @@ body {
 }
 
 .container {
-    border: 10px solid;
-    padding: 200px;
+    padding: 100px;
     justify-content: space-between;
     display: none;
 }
 
 .button {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     display: none;
+    background-color: rgb(47, 68, 112);
 }
 
 .button img {
@@ -50,4 +50,5 @@ body {
 #image-list {
     overflow-x: auto;
     white-space: nowrap;
+    background-color: rgb(47, 68, 112);
 }
